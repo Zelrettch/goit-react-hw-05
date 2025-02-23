@@ -42,8 +42,3 @@ export async function fetchFilmReviews(movie_id) {
   const response = await axios.get(url, options);
   return response.data;
 }
-
-export async function fetchConf() {
-  const url = "https://api.themoviedb.org/3/configuration";
-  console.log(await axios.get(url, options));
-}
