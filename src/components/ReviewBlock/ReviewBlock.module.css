@@ -1,0 +1,8 @@
+.block:not(:last-child) {
+  border-bottom: 1px solid #ffffff;
+}
+
+.block {
+  padding: 5px;
+  color: #ffffff;
+}

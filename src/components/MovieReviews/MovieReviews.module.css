@@ -1,0 +1,12 @@
+.block {
+  padding: 20px;
+}
+
+.emptyReviewsBlock {
+  height: 100px;
+  color: #ffffff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

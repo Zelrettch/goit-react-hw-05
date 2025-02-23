@@ -1,0 +1,29 @@
+.block {
+  display: flex;
+  color: #ffffff;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.thumb {
+  flex-shrink: 0;
+  width: 400px;
+}
+
+.info {
+  flex-grow: 0;
+  width: 100%;
+  display: block;
+}
+
+.block h1,
+.block h2 {
+  text-align: center;
+}
+.overview {
+  margin-bottom: 20px;
+}
+
+.score {
+  margin-bottom: 5px;
+}

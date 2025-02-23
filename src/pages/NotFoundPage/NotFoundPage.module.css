@@ -1,0 +1,24 @@
+.block {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.header {
+  color: #c7c7c7;
+  text-align: center;
+  font-size: 80px;
+}
+
+.link {
+  background-color: #16334a;
+  padding: 15px;
+  border-radius: 15px;
+  color: #ffffff;
+  align-self: center;
+  transition: color 0.3s ease;
+}
+
+.link:hover {
+  color: #c7c7c7;
+}

@@ -1,0 +1,16 @@
+.thumb {
+  background-color: #f0f7f7;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.thumb img {
+  width: 200px;
+}
+
+.text {
+  padding: 10px;
+  max-width: 200px;
+  color: #102536;
+  font-size: 20px;
+}

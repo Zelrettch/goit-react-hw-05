@@ -1,0 +1,11 @@
+.container {
+  padding: 20px;
+  overflow: auto;
+  scrollbar-gutter: stable;
+}
+
+.page {
+  max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

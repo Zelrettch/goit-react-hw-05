@@ -1,0 +1,54 @@
+.backBtn {
+  border: none;
+  display: block;
+  background-color: transparent;
+  padding: 3px 30px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.backBtn:hover {
+  background-color: #16334a;
+}
+
+.backBtn svg {
+  display: block;
+  color: #ffffff;
+}
+
+.link {
+  width: 40%;
+  text-align: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border: #16334a solid 2px;
+  border-bottom: none;
+  color: #c7c7c7;
+  transition: background-color 0.3s ease;
+}
+
+.link:hover {
+  background-color: #16334a;
+}
+
+.nav:not(:has(.link.active)) .link {
+  border-radius: 10px;
+  border: #16334a solid 2px;
+}
+
+.active {
+  color: #ffffff;
+  background-color: #16334a;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.outlet {
+  background-color: #16334a;
+  border-radius: 10px;
+}

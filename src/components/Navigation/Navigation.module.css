@@ -1,0 +1,19 @@
+.link {
+  color: #c7c7c7;
+  padding: 10px;
+  display: block;
+}
+
+.nav {
+  display: flex;
+}
+
+.header {
+  padding: 0px 20px;
+  background-color: #16334a;
+}
+
+.active {
+  color: #ffffff;
+  background-color: #102536;
+}
